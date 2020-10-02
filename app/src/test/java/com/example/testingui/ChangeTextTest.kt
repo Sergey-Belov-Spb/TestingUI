@@ -32,8 +32,7 @@ class ChangeTextTest {
             IdlingRegistry.getInstance().register(mIdlingResource)
         }
     }
-
-
+    
     @After
     fun unregisterIdlingResource() {
         if (mIdlingResource != null) {
